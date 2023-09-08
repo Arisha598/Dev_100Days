@@ -1,0 +1,59 @@
+
+
+.container{
+    height: 700px;
+    border: 1ps solid brown;
+    background-image: linear-gradient(rgb(24, 224, 87) , rgb(60, 60, 201));
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+
+.box{
+    border: 2px solid black;
+    background-image: linear-gradient(red , blue);
+
+    
+
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px brown ;
+
+}
+#xy1{
+    color: black ;
+    text-shadow: 5px 5px 5px  red;
+    font-family: serif;
+
+}
+#xy2{
+    color:black ;
+    text-shadow: 5px 5px 5px brown ;
+    font-family: serif;
+
+}
+#xy3{
+    color:black ;
+    text-shadow: 5px 5px 5px  red;
+    font-family: serif;
+
+}
+#xy4{
+    color: black;
+    text-shadow: 5px 5px 5px  brown;
+    font-family: serif;
+
+}
+#xy5{
+    color: black;
+    text-shadow: 5px 5px 5px  red;
+    font-family: serif;
+
+}
+#xy6{
+    color: black ;
+    text-shadow: 5px 5px 5px  brown ;
+    font-family: serif;
+}

@@ -1,0 +1,123 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: antiquewhite;
+    height: 500px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 200px 200px 210px;
+    grid-template-rows: 90px 90px 90px 90px;
+}
+.box{
+    background-color: blue;
+    border: 3px solid black;
+    width: 180px;
+    height: 180px;
+} */
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button{
+    font-family: "montserrat";
+    border: none;
+    border-radius: 0.2rem;
+}
+a{
+    text-decoration:none;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+
+}
+.container{
+    height: 100%;
+    width: 850%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    position: relative;
+    padding: 1rem;
+    width: 350px;
+    height: 450px;
+    box-shadow: -1px 15px 30px -12px rgb(32, 32,32);
+    color: brown;
+    cursor:pointer;
+}
+.product-image{
+    height: 230px;
+    width: 100%;
+    transform: translate(0, -1.5rem);
+    transition: transform(-1.5rem , -7rem)rotate(-20deg);
+}
+.bnn{
+    background-color: black;
+    text-align: center;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container h1{
+    margin: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.card img {
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    box-shadow:0 0 20px #333 ;
+}
+    .card:hoverimg{
+        filter: grayscale(0%);
+    }
+.card figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px;
+    width: 100%;
+    height: 20%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    opacity: 0;
+    border-radius: 0 0 10px 10px;
+    background :linear-gradient(0 deg ,rgda(0,0,0,5), rgba(255,255,255,0)100%);
+    transition: 0,3s;
+}
+.card:hover figcaption{
+    opacity: 1;
+    transform: scale(1.03);
+}
