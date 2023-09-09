@@ -1,0 +1,37 @@
+.container{
+    border: 3px solid brown ;
+    background-color:white  ;
+    height: 212px;
+    width: 100%;
+   
+}
+.box{
+    border: 2px solid blueviolet ;
+    height: 200px;
+    width: 200px ;
+    background-color: brown ;
+    animation-name: ARISHA;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    /* animation-direction:alternate;   */
+    animation-fill-mode: forwards;
+    
+
+}
+@keyframes ARISHA{
+    0%{
+        width: 212px;
+        background-color: orange ;
+    }
+    50%{
+        width:350%;
+        background-color: white;
+    }
+    
+    100%{
+        width: 100%;
+        background-color: green;
+    }
+}

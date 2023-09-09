@@ -1,0 +1,29 @@
+.container{
+    border: 3px solid brown ;
+    background-color:white  ;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px red;
+   
+}
+
+
+.btn{
+   align-items: center;
+   border: 2px solid blue ;
+   background-color: red;
+   height: 50px;
+   width: 50px;
+   margin: 20px;
+   transition: transform 3s ease in;
+   animation-fill-mode: forwards;
+
+   
+}
+.btn:hover{
+    background-color: grey ;
+    transform: translateX(50px);
+}
